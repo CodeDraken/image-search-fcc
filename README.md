@@ -3,6 +3,7 @@ Search for images. This is a FreeCodeCamp [back-end project](https://www.freecod
 
 View it at: ...
 
+Start it with `npm start`
 Run tests by running `npm test`
 
 ## Tech used:

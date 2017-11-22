@@ -18,8 +18,6 @@ app.use(bodyParser.json())
 app.use(express.static(`${__dirname}/public`))
 
 // routes
-app.use(require('./routes/urlRoutes'))
-
-// require('./routes/urlRoutes')(app)
+app.use('/api/imagesearch', require('./routes/searchRoutes'))
 
 module.exports = app
