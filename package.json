@@ -1,0 +1,34 @@
+{
+  "name": "image-search-fcc",
+  "version": "1.0.0",
+  "description": "Search for images - An FCC project",
+  "main": "index.js",
+  "repository": "gh",
+  "author": "CodeDraken",
+  "license": "MIT",
+  "engines": {
+    "node": "8.9.0",
+    "npm": "5.5.1"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "start-watch": "nodemon index.js",
+    "test": "mocha **/*.test.js",
+    "test-watch": "nodemon yarn test"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.2",
+    "expect": "^21.2.1",
+    "mocha": "^4.0.1",
+    "nodemon": "^1.12.1",
+    "supertest": "^3.0.0"
+  }
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="/styles.css">
+  <title>Image Search</title>
+</head>
+
+<body>
+  <div class="top-bar">
+    <div class="top-bar-left">
+      <ul class="dropdown menu" data-dropdown-menu>
+        <li class="menu-text">ImageDraken<small class="subheader"> - an FCC project</small></li>
+        <!-- <li>
+          <a href="#">One</a>
+        </li>
+        <li><a href="#">Two</a></li>
+        <li><a href="#">Three</a></li> -->
+      </ul>
+    </div>
+    <div class="top-bar-right">
+      <ul class="menu">
+        <li><a href="https://github.com/CodeDraken/FCC-Url-Shortener" target="_blank"><i class="fa fa-lg fa-github" aria-hidden="true"></i></a></li>
+        <li><a href="https://medium.com/@codedraken" target="_blank"><i class="fa fa-lg fa-medium" aria-hidden="true"></i></a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="grid-x">
+      <div class="small-10 small-offset-1 medium-8 medium-offset-2 cell">
+        <header>
+          <h1 class="text-center">
+            ImageDraken
+            <small>minify your urls</small>
+          </h1>
+        </header>
+
+        <main class="text-center">
+          <p>
+            To shorten a url just copy and paste it to
+            <strong>/new/?url=yourURLHere </strong> Or use the form below.
+          </p>
+
+          <form class="grid-x grid-margin-x" method="get" action="" target="_blank">
+            <input class="cell small-12 medium-8 large-9" name="url" type="text">
+            <button class="button cell small-12 medium-4 large-3">Search Images</button>
+          </form>
+
+          <p>This is a project for <a href="https://www.freecodecamp.org/" target="_blank">FreeCodeCamp</a>. The technologies used include: Node, Express, MongoDB, and some libraries for them.</p>
+        </main>
+
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
