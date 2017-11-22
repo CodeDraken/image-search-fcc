@@ -45,12 +45,12 @@
         <main class="text-center">
           <p>
             To search for an image just do a request to:
-            <strong>/api/imagesearch/search/:yourSearch </strong> Or use the form below. You can also see what people are searching by going to <strong>/api/imagesearch/latest</strong>
+            <strong>/api/imagesearch/:yourSearch </strong> Or use the form below. You can also see what people are searching by going to <strong>/api/imagesearch/latest</strong>
           </p>
 
           <a>You can use all of the <a href="https://www.flickr.com/services/api/flickr.photos.search.html" target="_blank">options here</a></p>
 
-          <form class="grid-x grid-margin-x" method="get" action="/api/imagesearch/search/" target="_blank">
+          <form class="grid-x grid-margin-x" method="get" action="/api/imagesearch/searchform" target="_blank">
             <input class="cell small-12 medium-8 large-9" name="text" type="text">
             <button class="button cell small-12 medium-4 large-3">Search Images</button>
           </form>
