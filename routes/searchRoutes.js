@@ -1,4 +1,4 @@
-// urlRoutes handles creating new short urls
+// searchRoutes - search images & see latest searches
 
 const searchController = require('../controllers/searchController')
 const express = require('express')
