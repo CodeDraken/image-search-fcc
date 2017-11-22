@@ -1,5 +1,5 @@
-const ShortUrl = require('./ShortUrl')
+const RecentSearch = require('./RecentSearch')
 
 module.exports = {
-  ShortUrl
+  RecentSearch
 }

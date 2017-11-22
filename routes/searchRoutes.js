@@ -5,7 +5,7 @@ const express = require('express')
 const searchRouter = express.Router()
 
 // use * to avoid issues with urls
-searchRouter.get('/:search', searchController.search)
+searchRouter.get('/search/:search', searchController.search)
 
 // redirect short urls to original urls
 searchRouter.get('/latest', searchController.latest)
